@@ -4,6 +4,11 @@
   移动端最好用的的筛选器组件，高仿 ios 的 UIPickerView ，非常流畅的体验
 </p>
 
+## demo
+相对目前已有的选择器更加顺滑 
+
+![Picker](./public/picker.gif)
+
 ## 安装
 安装`aw-picker`
 ```shell
@@ -106,13 +111,13 @@ methods: {
 
 ## 数据格式
 
-| 参数 | 说明 | 类型 | 默认值 | 
+| 参数 | 说明 | 类型 | 默认值 |
 |-----|-----| ----- | -----| ----- |
 | values | 展示数据`{label: xx, value: xx}` | Array | - |
 | flex | 相当与`flex: n` | Number | 1 |
-| value | 默认值 | Number, String | - |  
-| align | 对齐方式 | String | center | 
-| divider | 是否是分割块 | Boolean | false | 
+| value | 默认值 | Number, String | - |
+| align | 对齐方式 | String | center |
+| divider | 是否是分割块 | Boolean | false |
 | content | 分割块的内容(`divider`为`true`生效) | String | - |
 | dividerStyles | 分割块的样式 | Object | - |
 
