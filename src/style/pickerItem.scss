@@ -1,0 +1,42 @@
+$scope: aw-picker-item;
+
+.#{$scope} {
+  overflow: hidden;
+  position: relative;
+  max-height: 100%;
+  font-size: 18px;
+  flex: 1;
+  text-align: center;
+  &__divider {
+    height: 44px;
+    line-height: 44px;
+  }
+  &__wrapper {
+    transform: translate(0, 72px);
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+    backface-visibility: hidden;
+    &--dragging {
+      transition-duration: 0s;
+    }
+  }
+  &__item {
+    height: 44px;
+    line-height: 44px;
+    padding: 0 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #707274;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    transition-duration: .3s;
+    &--selected {
+      color: #000;
+      transform: translate3d(0, 0, 0) rotateX(0);
+    }
+    &--dragging {
+      transition-duration: 0s;
+    }
+  }
+}
