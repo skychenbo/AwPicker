@@ -1,6 +1,6 @@
 {
   "name": "aw-picker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "src/index.js",
   "private": false,
   "scripts": {
@@ -11,6 +11,10 @@
   "author": {
     "name": "B_Cornelius",
     "email": "18223306087@163.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:skychenbo/AwPicker.git"
   },
   "keywords": [
     "vue",
@@ -38,6 +42,7 @@
       "autoprefixer": {}
     }
   },
+  "license": "MIT",
   "browserslist": [
     "> 1%",
     "last 2 versions"
