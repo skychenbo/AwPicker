@@ -112,7 +112,7 @@ methods: {
 ## 数据格式
 
 | 参数 | 说明 | 类型 | 默认值 |
-|-----|-----| ----- | -----| ----- |
+|:---|:---|:---|:---|
 | values | 展示数据`{label: xx, value: xx}` | Array | - |
 | flex | 相当与`flex: n` | Number | 1 |
 | value | 默认值 | Number, String | - |
