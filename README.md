@@ -133,5 +133,5 @@ methods: {
 | getPickerInstance | 获取`picker vue` 实例对象 | 
 
 ## Author
-email: '18223306087@163.com'<br>
-weChat: 18223306087
+email: `18223306087@163.com`<br>
+weChat: `18223306087`
