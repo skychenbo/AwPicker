@@ -1,13 +1,18 @@
 {
   "name": "aw-picker",
   "version": "0.1.2",
-  "main": "src/index.js",
+  "main": "dist/aw-picker.umd.min.js",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --mode production --name index src/index.js",
+    "build": "vue-cli-service build --mode production --target lib --name aw-picker src/index.js",
     "lint": "vue-cli-service lint"
   },
+  "files": [
+    "dist/*.css",
+    "dist/*.js",
+    "src/*"
+  ],
   "author": {
     "name": "B_Cornelius",
     "email": "18223306087@163.com"
