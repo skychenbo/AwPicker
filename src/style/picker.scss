@@ -63,21 +63,23 @@ $scope: aw-picker;
     pointer-events: none;
     margin-top: -22px;
     &::before, &::after {
-      content: ' ';
+      content: '';
       position: absolute;
       display: block;
-      height: 1px;
-      width: 100%;
-      background-color: #eaeaea;
+      box-sizing: border-box;
+      border: 0px solid $color-light-border;
       z-index: 5;
+      left: -50%;
+      right: -50%;
+      transform: scale(0.5);
     }
     &::before {
       top: 0;
-      left: 0;
+      border-top-width: 1px;
     }
     &::after {
       bottom: 0;
-      left: 0;
+      border-bottom-width: 1px;
     }
   }
 }
